@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_meetings"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Meetings"
+            />
+        <item
+            android:id="@+id/nav_financials"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Financials" />
+        <item
+            android:id="@+id/nav_vote"
+            android:icon="@drawable/ic_poll_black_24dp"
+            android:title="Vote" />
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_forum_black_24dp"
+            android:title="Community" />
+        <item
+            android:id="@+id/nav_policies"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Policies"
+            />
+    </group>
+
+    <item android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_assignment_late_black_24dp"
+                android:title="Give Feedback" />
+        </menu>
+    </item>
+
+</menu>
